@@ -1,12 +1,12 @@
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Eloheh Management Team</title>
   <style>
     body {
       background-color: #e6f7ff;
-      font-family: 'Segoe UI', 'Georgia', serif;
+      font-family: 'Segoe UI', Georgia, serif;
       color: #003366;
       margin: 0;
       padding: 0;
@@ -21,7 +21,7 @@
     header h1 {
       font-size: 36px;
       margin-bottom: 10px;
-      color: black; /* Changed to black */
+      color: black;
     }
 
     .subheading {
@@ -70,15 +70,25 @@
       color: #004466;
     }
 
-    .links, footer {
+    .links {
       text-align: center;
       padding: 20px;
       font-size: 16px;
     }
 
+    .links ul {
+      list-style-position: inside;
+      padding: 0;
+      margin: 0 auto;
+      display: table;
+      text-align: left;
+    }
+
+    .links li {
+      margin: 10px 0;
+    }
+
     .links a {
-      display: block;
-      margin: 8px 0;
       color: #0066cc;
       text-decoration: none;
       font-weight: bold;
@@ -91,7 +101,8 @@
     footer {
       font-size: 14px;
       color: #444;
-      padding-bottom: 40px;
+      padding: 20px 0 40px;
+      text-align: center;
     }
 
     .team-list {
@@ -102,9 +113,9 @@
       margin-top: 20px;
     }
 
-    .team-list ol, .team-list ul {
+    .team-list ol {
       text-align: left;
-      margin: 0;
+      margin: 0 auto;
       padding-left: 20px;
     }
 
@@ -114,20 +125,12 @@
       font-weight: bold;
       text-align: center;
     }
-
-    .centered-ul {
-      list-style-position: inside;
-      padding: 0;
-      margin: 0 auto;
-      display: table;
-      text-align: left;
-    }
   </style>
 </head>
 <body>
   <header>
     <h1><b><u>Eloheh Management Team</u></b></h1>
-    <img src="Grouppic.png" width="420" height="360" alt="Team Group Photo">
+    <img src="Grouppic.png" width="420" height="360" alt="Team Group Photo" />
     <p class="subheading"><i>Eloheh is a groundbreaking healthcare service company</i></p>
     <p><b style="color: blue; font-size: 18px; font-family: Georgia;">Get to know our team</b></p>
     <p class="team-intro">A <u>group</u> of <b><i>highly qualified</i></b> individuals who are changing the world</p>
@@ -135,12 +138,12 @@
 
   <section class="grid-container">
     <div class="card">
-      <img src="Suditi.png" alt="Suditi Basak">
+      <img src="Suditi.png" alt="Suditi Basak" />
       <h3><i><u>Suditi Basak – CEO</u></i></h3>
       <p>Junior at Purdue University, double majoring in Accounting and Finance. From Seattle, WA. Involved in the Brock Wilson Center, Larsen Leaders, and the Griswold Consulting Internship. Avid traveler.</p>
     </div>
     <div class="card">
-      <img src="Ella.png" alt="Ella Dawes">
+      <img src="Ella.png" alt="Ella Dawes" />
       <h3><i><u>Ella Dawes – CFO</u></i></h3>
       <p>Junior at Purdue University majoring in Integrated Business and Engineering. From Santa Barbara, CA. Loves to surf and snorkel.</p>
     </div>
@@ -148,17 +151,17 @@
 
   <section class="grid-container">
     <div class="card">
-      <img src="Sarah.png" alt="Sarah Lenderman">
+      <img src="Sarah.png" alt="Sarah Lenderman" />
       <h3><i><u>Sarah Lenderman – COO</u></i></h3>
       <p>Senior majoring in Accounting & Finance with a certificate in Entrepreneurship. From Charlotte, NC but lives in Seattle. Loves family time, outdoors, and working with kids.</p>
     </div>
     <div class="card">
-      <img src="Allie.png" alt="Allie Xaio">
+      <img src="Allie.png" alt="Allie Xaio" />
       <h3><i><u>Allie Xaio – CTO</u></i></h3>
       <p>Majoring in Business Analytics and Information Management. From San Diego, CA.</p>
     </div>
     <div class="card">
-      <img src="Que.png" alt="Quentin Quizon">
+      <img src="Que.png" alt="Quentin Quizon" />
       <h3><i><u>Quentin Quizon – CSO</u></i></h3>
       <p>Sophomore majoring in Finance and AI. From Bay Area, CA. Trains in MMA.</p>
     </div>
@@ -177,7 +180,7 @@
   </section>
 
   <section class="links">
-    <ul class="centered-ul">
+    <ul>
       <li><b>Having Trouble? Call 1-800-HEALTH1</b></li>
       <li><a href="https://www.teladochealth.com/organizations/hospitals-health-systems" target="_blank">Learn More About Telehealth</a></li>
       <li><a href="elohehdoctors.pdf" target="_blank">Download this file for more of our specialists</a></li>
